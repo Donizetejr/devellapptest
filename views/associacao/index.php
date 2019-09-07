@@ -7,6 +7,7 @@ use app\models\Associacao;
 use yii\helpers\Html;
 
 //$searchModel = $this->params;
+//git
 $cidade = Associacao::find()->all();
 
 
