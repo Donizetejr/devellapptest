@@ -44,7 +44,7 @@ class Cliente extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome'], 'required'],
+            [['nome', 'idAssociacao', 'idCidade', 'cnpj', 'endereco'], 'required'],
             [['idCidade', 'idAssociacao'], 'integer'],
             [['nome', 'bairro', 'email'], 'string', 'max' => 120],
             [['cnpj'], 'string', 'max' => 14],
@@ -64,14 +64,14 @@ class Cliente extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nome' => 'Nome',
-            'cnpj' => 'Cnpj',
-            'idCidade' => 'Id Cidade',
-            'endereco' => 'Endereco',
+            'cnpj' => 'CNPJ',
+            'idCidade' => 'Cidade',
+            'endereco' => 'Endereço',
             'complemento' => 'Complemento',
             'bairro' => 'Bairro',
             'telefone' => 'Telefone',
-            'email' => 'Email',
-            'idAssociacao' => 'Id Associacao',
+            'email' => 'E-mail',
+            'idAssociacao' => 'Associação',
         ];
     }
 

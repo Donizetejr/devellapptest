@@ -38,7 +38,7 @@ class Associacao extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome'], 'required'],
+            [['nome', 'idCidade', 'cnpj', 'telefone', 'email'], 'required'],
             [['descricao'], 'string'],
             [['idCidade'], 'integer'],
             [['nome', 'bairro', 'email'], 'string', 'max' => 120],
@@ -59,14 +59,14 @@ class Associacao extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nome' => 'Nome',
-            'descricao' => 'Descricao',
-            'idCidade' => 'Id Cidade',
-            'endereco' => 'Endereco',
+            'descricao' => 'Descrição',
+            'idCidade' => 'Cidade',
+            'endereco' => 'Endereço',
             'complemento' => 'Complemento',
             'bairro' => 'Bairro',
             'telefone' => 'Telefone',
-            'email' => 'Email',
-            'cnpj' => 'Cnpj',
+            'email' => 'E-mail',
+            'cnpj' => 'CNPJ',
         ];
     }
 

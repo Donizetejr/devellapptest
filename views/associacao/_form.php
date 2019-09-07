@@ -1,5 +1,7 @@
 <?php
 
+use app\models\Cidade;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -12,13 +14,13 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'id')->textInput() ?>
+<!--<//= $form->field($model, 'id')->textInput() >-->
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'descricao')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'idCidade')->textInput() ?>
+    <?= $form->field($model, 'idCidade')->dropDownList([ArrayHelper::map(Cidade::find()->all(), 'id', 'nome')], ['prompt' => 'Selecione uma Cidade']) ?>
 
     <?= $form->field($model, 'endereco')->textInput(['maxlength' => true]) ?>
 

@@ -49,7 +49,7 @@ class Banco extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nome' => 'Nome',
-            'agencia' => 'Agencia',
+            'agencia' => 'Agência',
             'conta' => 'Conta',
             'idCliente' => 'Id Cliente',
         ];

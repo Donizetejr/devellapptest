@@ -1,5 +1,8 @@
 <?php
 
+use app\models\Associacao;
+use app\models\Cidade;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -16,7 +19,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'cnpj')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'idCidade')->textInput() ?>
+    <?= $form->field($model, 'idCidade')->dropDownList([ArrayHelper::map(Cidade::find()->all(), 'id', 'nome')], ['prompt' => 'Selecione uma Cidade']) ?>
 
     <?= $form->field($model, 'endereco')->textInput(['maxlength' => true]) ?>
 
@@ -28,7 +31,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'idAssociacao')->textInput() ?>
+    <?= $form->field($model, 'idAssociacao')->dropDownList([ArrayHelper::map(Associacao::find()->all(), 'id', 'nome')], ['prompt' => 'Selecione uma Associação']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

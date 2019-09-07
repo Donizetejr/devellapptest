@@ -1,5 +1,8 @@
 <?php
 
+use app\models\Cidade;
+use app\models\Estado;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -14,7 +17,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'idEstado')->textInput() ?>
+    <?= $form->field($model, 'idEstado')->dropDownList([ArrayHelper::map(Estado::find()->all(), 'id', 'sigla')], ['prompt' => 'Selecione um Estado']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
