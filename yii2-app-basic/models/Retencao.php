@@ -48,7 +48,7 @@ class Retencao extends \yii\db\ActiveRecord
             'ano' => 'Ano',
             'mes' => 'Mês',
             'valor' => 'Valor',
-            'idCliente' => 'Id Cliente',
+            'idCliente' => 'Cliente',
         ];
     }
 

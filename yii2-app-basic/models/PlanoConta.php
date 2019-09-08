@@ -49,8 +49,8 @@ class PlanoConta extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nome' => 'Nome',
-            'idPai' => 'Id Pai',
-            'idCliente' => 'Id Cliente',
+            'idPai' => 'Pai',
+            'idCliente' => 'Cliente',
         ];
     }
 

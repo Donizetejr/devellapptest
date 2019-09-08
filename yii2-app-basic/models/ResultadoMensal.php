@@ -51,8 +51,8 @@ class ResultadoMensal extends \yii\db\ActiveRecord
             'ano' => 'Ano',
             'mes' => 'Mês',
             'valor' => 'Valor',
-            'idCategoriaResultado' => 'Id Categoria Resultado',
-            'idCliente' => 'Id Cliente',
+            'idCategoriaResultado' => 'Categoria Resultado',
+            'idCliente' => 'Cliente',
         ];
     }
 

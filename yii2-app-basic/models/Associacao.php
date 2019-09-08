@@ -38,7 +38,7 @@ class Associacao extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome'], 'required'],
+            [['nome', 'idCidade', 'cnpj', 'telefone', 'endereco'], 'required'],
             [['descricao'], 'string'],
             [['idCidade'], 'integer'],
             [['nome', 'bairro', 'email'], 'string', 'max' => 120],

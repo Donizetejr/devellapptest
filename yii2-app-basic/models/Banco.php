@@ -32,7 +32,7 @@ class Banco extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome', 'idCliente'], 'required'],
+            [['nome', 'idCliente', 'agencia', 'conta'], 'required'],
             [['idCliente'], 'integer'],
             [['nome'], 'string', 'max' => 50],
             [['agencia', 'conta'], 'string', 'max' => 20],
@@ -51,7 +51,7 @@ class Banco extends \yii\db\ActiveRecord
             'nome' => 'Nome',
             'agencia' => 'Agência',
             'conta' => 'Conta',
-            'idCliente' => 'Id Cliente',
+            'idCliente' => 'Cliente',
         ];
     }
 

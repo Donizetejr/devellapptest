@@ -78,13 +78,13 @@ class Lancamento extends \yii\db\ActiveRecord
             'dtRealizacao' => 'Data Realização',
             'valorPrevisto' => 'Valor Previsto',
             'valorRealizado' => 'Valor Realizado',
-            'idBanco' => 'Id Banco',
+            'idBanco' => 'Banco',
             'idTipoDocumento' => 'Id Tipo Documento',
             'idFormaPagamento' => 'Id Forma Pagamento',
             'idTipoConta' => 'Id Tipo Conta',
             'idPlanoConta' => 'Id Plano Conta',
             'descricao' => 'Descrição',
-            'idCliente' => 'Id Cliente',
+            'idCliente' => 'Cliente',
         ];
     }
 

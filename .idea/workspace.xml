@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="57109be9-797a-4910-9d68-4890196f1e40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Associacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Associacao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Banco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Cidade.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Cidade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/CredorDevedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/CredorDevedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Lancamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Lancamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/PlanoConta.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/PlanoConta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/ResultadoMensal.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/ResultadoMensal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Retencao.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Retencao.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +142,7 @@
       <workItem from="1567872210270" duration="8184000" />
       <workItem from="1567882679644" duration="628000" />
       <workItem from="1567898081879" duration="1289000" />
-      <workItem from="1567951976439" duration="6445000" />
+      <workItem from="1567951976439" duration="10967000" />
     </task>
     <servers />
   </component>

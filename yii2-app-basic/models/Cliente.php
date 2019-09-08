@@ -65,13 +65,13 @@ class Cliente extends \yii\db\ActiveRecord
             'id' => 'ID',
             'nome' => 'Nome',
             'cnpj' => 'CNPJ',
-            'idCidade' => 'Id Cidade',
-            'endereco' => 'Endereco',
+            'idCidade' => 'Cidade',
+            'endereco' => 'Endereço',
             'complemento' => 'Complemento',
             'bairro' => 'Bairro',
             'telefone' => 'Telefone',
-            'email' => 'Email',
-            'idAssociacao' => 'Id Associacao',
+            'email' => 'E-mail',
+            'idAssociacao' => 'Associacao',
         ];
     }
 

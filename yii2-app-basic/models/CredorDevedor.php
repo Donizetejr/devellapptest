@@ -65,7 +65,7 @@ class CredorDevedor extends \yii\db\ActiveRecord
             'bairro' => 'Bairro',
             'telefone' => 'Telefone',
             'email' => 'E-mail',
-            'idCliente' => 'Id Cliente',
+            'idCliente' => 'Cliente',
         ];
     }
 

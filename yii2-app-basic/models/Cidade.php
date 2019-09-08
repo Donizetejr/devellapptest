@@ -47,7 +47,7 @@ class Cidade extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nome' => 'Nome',
-            'idEstado' => 'Id Estado',
+            'idEstado' => 'Estado',
         ];
     }
 
