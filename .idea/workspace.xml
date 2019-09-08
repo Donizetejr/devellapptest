@@ -3,15 +3,83 @@
   <component name="ChangeListManager">
     <list default="true" id="57109be9-797a-4910-9d68-4890196f1e40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Associacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Associacao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Banco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Cidade.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Cidade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Cliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/CredorDevedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/CredorDevedor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Lancamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Lancamento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/PlanoConta.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/PlanoConta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/ResultadoMensal.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/ResultadoMensal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Retencao.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Retencao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/associacao/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/associacao/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/associacao/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/associacao/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/associacao/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/associacao/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/associacao/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/associacao/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/associacao/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/associacao/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/banco/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/banco/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/banco/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/banco/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/banco/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/banco/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/banco/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/banco/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/banco/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/banco/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/categoria-resultado/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cidade/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cidade/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cidade/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cidade/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cidade/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cidade/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cidade/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cidade/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cidade/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cidade/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cliente/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cliente/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cliente/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cliente/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cliente/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cliente/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cliente/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cliente/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/cliente/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/cliente/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/credor-devedor/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/estado/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/estado/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/estado/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/estado/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/estado/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/estado/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/estado/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/estado/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/estado/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/estado/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/forma-pagamento/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/plano-conta/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/resultado-mensal/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/retencao/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/retencao/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/retencao/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/retencao/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/retencao/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/retencao/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/retencao/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/retencao/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/retencao/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/retencao/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-conta/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/tipo-documento/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/usuario/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/usuario/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/usuario/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/usuario/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/usuario/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/usuario/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/usuario/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/usuario/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/usuario/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/usuario/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +210,7 @@
       <workItem from="1567872210270" duration="8184000" />
       <workItem from="1567882679644" duration="628000" />
       <workItem from="1567898081879" duration="1289000" />
-      <workItem from="1567951976439" duration="10967000" />
+      <workItem from="1567951976439" duration="15407000" />
     </task>
     <servers />
   </component>

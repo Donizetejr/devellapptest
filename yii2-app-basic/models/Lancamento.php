@@ -71,7 +71,7 @@ class Lancamento extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'tipo' => 'Tipo',
-            'idCredorDevedor' => 'Id Credor Devedor',
+            'idCredorDevedor' => 'Credor Devedor',
             'numDocumento' => 'Número do Documento',
             'dtVencimento' => 'Data Vencimento',
             'dtEmissao' => 'Data Emissão',
@@ -79,10 +79,10 @@ class Lancamento extends \yii\db\ActiveRecord
             'valorPrevisto' => 'Valor Previsto',
             'valorRealizado' => 'Valor Realizado',
             'idBanco' => 'Banco',
-            'idTipoDocumento' => 'Id Tipo Documento',
-            'idFormaPagamento' => 'Id Forma Pagamento',
-            'idTipoConta' => 'Id Tipo Conta',
-            'idPlanoConta' => 'Id Plano Conta',
+            'idTipoDocumento' => 'Tipo de Documento',
+            'idFormaPagamento' => 'Forma de Pagamento',
+            'idTipoConta' => 'Tipo de Conta',
+            'idPlanoConta' => 'Plano da Conta',
             'descricao' => 'Descrição',
             'idCliente' => 'Cliente',
         ];

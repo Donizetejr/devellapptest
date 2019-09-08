@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Retencao */
 
-$this->title = 'Create Retencao';
-$this->params['breadcrumbs'][] = ['label' => 'Retencaos', 'url' => ['index']];
+$this->title = 'Nova Retenção';
+$this->params['breadcrumbs'][] = ['label' => 'Retenções', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="retencao-create">

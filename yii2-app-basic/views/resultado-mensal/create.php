@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\ResultadoMensal */
 
-$this->title = 'Create Resultado Mensal';
-$this->params['breadcrumbs'][] = ['label' => 'Resultado Mensals', 'url' => ['index']];
+$this->title = 'Novo Resultado Mensal';
+$this->params['breadcrumbs'][] = ['label' => 'Resultado Mensal', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="resultado-mensal-create">

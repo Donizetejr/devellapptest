@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\PlanoConta */
 
-$this->title = 'Update Plano Conta: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Plano Contas', 'url' => ['index']];
+$this->title = 'Atualizar Plano de Conta: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Planos de Conta', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

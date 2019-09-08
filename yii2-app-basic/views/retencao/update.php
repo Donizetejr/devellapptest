@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Retencao */
 
-$this->title = 'Update Retencao: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Retencaos', 'url' => ['index']];
+$this->title = 'Atualizar Retenção: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Retencões', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

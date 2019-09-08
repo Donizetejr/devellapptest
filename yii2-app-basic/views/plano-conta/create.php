@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\PlanoConta */
 
-$this->title = 'Create Plano Conta';
-$this->params['breadcrumbs'][] = ['label' => 'Plano Contas', 'url' => ['index']];
+$this->title = 'Novo Plano de Conta';
+$this->params['breadcrumbs'][] = ['label' => 'Planos de Conta', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="plano-conta-create">

@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\RetencaoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Retencaos';
+$this->title = 'Retencões';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="retencao-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Retencao', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nova Retenção', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

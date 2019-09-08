@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\TipoDocumentoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Tipo Documentos';
+$this->title = 'Tipos de Documento';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tipo-documento-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Tipo Documento', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Novo Tipo de Documento', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\PlanoContaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Plano Contas';
+$this->title = 'Planosc de Conta';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="plano-conta-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Plano Conta', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Novo Plano de Conta', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

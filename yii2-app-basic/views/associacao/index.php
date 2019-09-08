@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\AssociacaoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Associacaos';
+$this->title = 'Associações';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="associacao-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Associacao', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nova Associação', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

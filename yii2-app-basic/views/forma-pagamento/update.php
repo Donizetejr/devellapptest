@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\FormaPagamento */
 
-$this->title = 'Update Forma Pagamento: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Forma Pagamentos', 'url' => ['index']];
+$this->title = 'Atualizar Forma de Pagamento: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Formas de Pagamento', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

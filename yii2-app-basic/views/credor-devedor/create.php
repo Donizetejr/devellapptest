@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\CredorDevedor */
 
-$this->title = 'Create Credor Devedor';
-$this->params['breadcrumbs'][] = ['label' => 'Credor Devedors', 'url' => ['index']];
+$this->title = 'Novo Credor Devedor';
+$this->params['breadcrumbs'][] = ['label' => 'Credor Devedor', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="credor-devedor-create">

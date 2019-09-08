@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\LancamentoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Lancamentos';
+$this->title = 'Lançamentos';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="lancamento-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Lancamento', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Novo Lançamento', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

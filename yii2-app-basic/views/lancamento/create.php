@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Lancamento */
 
-$this->title = 'Create Lancamento';
-$this->params['breadcrumbs'][] = ['label' => 'Lancamentos', 'url' => ['index']];
+$this->title = 'Novo Lançamento';
+$this->params['breadcrumbs'][] = ['label' => 'Lançamentos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="lancamento-create">

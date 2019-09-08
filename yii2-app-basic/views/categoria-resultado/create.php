@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\CategoriaResultado */
 
-$this->title = 'Create Categoria Resultado';
+$this->title = 'Nova Categoria Resultado';
 $this->params['breadcrumbs'][] = ['label' => 'Categoria Resultados', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

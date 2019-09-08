@@ -4,6 +4,9 @@ use app\models\Banco;
 use app\models\Cidade;
 use app\models\Cliente;
 use app\models\CredorDevedor;
+use app\models\FormaPagamento;
+use app\models\PlanoConta;
+use app\models\TipoConta;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
@@ -37,18 +40,18 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'idTipoDocumento')->textInput() ?>
 
-    <?= $form->field($model, 'idFormaPagamento')->textInput() ?>
+    <?= $form->field($model, 'idFormaPagamento')->dropDownList(ArrayHelper::map(FormaPagamento::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione uma Forma de Pagamento']) ?>
 
-    <?= $form->field($model, 'idTipoConta')->textInput() ?>
+    <?= $form->field($model, 'idTipoConta')->dropDownList(ArrayHelper::map(TipoConta::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione um Tipo de Conta']) ?>
 
-    <?= $form->field($model, 'idPlanoConta')->textInput() ?>
+    <?= $form->field($model, 'idPlanoConta')->dropDownList(ArrayHelper::map(PlanoConta::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione um Plano']) ?>
 
     <?= $form->field($model, 'descricao')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'idCliente')->dropDownList(ArrayHelper::map(Cliente::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione um Cliente']) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Gravar', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

@@ -2,6 +2,9 @@
 
 namespace app\models;
 
+use app\models\Usuario;
+use \app\models;
+
 class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
 {
     public $id;
@@ -10,22 +13,22 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     public $authKey;
     public $accessToken;
 
-    private static $users = [
-        '100' => [
-            'id' => '100',
-            'username' => 'admin',
-            'password' => 'admin',
-            'authKey' => 'test100key',
-            'accessToken' => '100-token',
-        ],
-        '101' => [
-            'id' => '101',
-            'username' => 'demo',
-            'password' => 'demo',
-            'authKey' => 'test101key',
-            'accessToken' => '101-token',
-        ],
-    ];
+//    private static $users = [
+//        '100' => [
+//            'id' => '100',
+//            'username' => 'admin',
+//            'password' => 'admin',
+//            'authKey' => 'test100key',
+//            'accessToken' => '100-token',
+//        ],
+//        '101' => [
+//            'id' => '101',
+//            'username' => 'demo',
+//            'password' => 'demo',
+//            'authKey' => 'test101key',
+//            'accessToken' => '101-token',
+//        ],
+//    ];
 
 
     /**
@@ -33,7 +36,13 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
      */
     public static function findIdentity($id)
     {
-        return isset(self::$users[$id]) ? new static(self::$users[$id]) : null;
+//        return isset(self::$users[$id]) ? new static(self::$users[$id]) : null;
+        $user = Usuario::find($id)->one();
+
+        if($user){
+            return new static($user);
+        }
+        return null;
     }
 
     /**
@@ -58,10 +67,17 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
      */
     public static function findByUsername($username)
     {
-        foreach (self::$users as $user) {
-            if (strcasecmp($user['username'], $username) === 0) {
-                return new static($user);
-            }
+//        foreach (self::$users as $user) {
+//            if (strcasecmp($user['username'], $username) === 0) {
+//                return new static($user);
+//            }
+//        }
+
+        $user = Usuario::find($username)->where(['username' => $username])->one();
+
+        if($user)
+        {
+            return new static($user);
         }
 
         return null;

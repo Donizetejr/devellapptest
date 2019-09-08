@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\ResultadoMensalSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Resultado Mensals';
+$this->title = 'Resultado Mensal';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="resultado-mensal-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Resultado Mensal', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Novo Resultado Mensal', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

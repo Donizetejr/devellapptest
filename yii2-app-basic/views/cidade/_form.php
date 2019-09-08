@@ -20,7 +20,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'idEstado')->dropDownList(ArrayHelper::map(Estado::find()->all(), 'id', 'sigla'), ['prompt' => 'Selecione um Estado']) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Gravar', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\TipoConta */
 
-$this->title = 'Create Tipo Conta';
-$this->params['breadcrumbs'][] = ['label' => 'Tipo Contas', 'url' => ['index']];
+$this->title = 'Novo Tipo Conta';
+$this->params['breadcrumbs'][] = ['label' => 'Tipos de Conta', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tipo-conta-create">
