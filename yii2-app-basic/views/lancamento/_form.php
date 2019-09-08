@@ -7,6 +7,7 @@ use app\models\CredorDevedor;
 use app\models\FormaPagamento;
 use app\models\PlanoConta;
 use app\models\TipoConta;
+use app\models\TipoDocumento;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
@@ -38,7 +39,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'idBanco')->dropDownList(ArrayHelper::map(Banco::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione um Banco']) ?>
 
-    <?= $form->field($model, 'idTipoDocumento')->textInput() ?>
+    <?= $form->field($model, 'idTipoDocumento')->dropDownList(ArrayHelper::map(TipoDocumento::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione um Documento']) ?>
 
     <?= $form->field($model, 'idFormaPagamento')->dropDownList(ArrayHelper::map(FormaPagamento::find()->all(), 'id', 'nome'), ['prompt' => 'Selecione uma Forma de Pagamento']) ?>
 
