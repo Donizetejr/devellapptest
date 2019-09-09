@@ -58,10 +58,10 @@ class Usuario extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'idPerfil' => 'Id Perfil',
+            'idPerfil' => 'Perfil',
             'nome' => 'Nome',
             'email' => 'E-mail',
-            'idFirebase' => 'Id Firebase',
+            'idFirebase' => 'Firebase',
             'authKey' => 'Auth Key',
             'passwordHash' => 'Password Hash',
             'passwordResetToken' => 'Password Reset Token',
