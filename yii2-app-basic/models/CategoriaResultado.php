@@ -43,7 +43,7 @@ class CategoriaResultado extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nome' => 'Nome',
-            'prazoRecebimento' => 'Prazo Recebimento',
+            'prazoRecebimento' => 'Prazo de Recebimento',
         ];
     }
 

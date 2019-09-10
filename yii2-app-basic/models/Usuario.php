@@ -69,7 +69,7 @@ class Usuario extends \yii\db\ActiveRecord
             'updatedAt' => 'Atualizado em',
             'status' => 'Status',
             'idCliente' => 'Cliente',
-            'username' => 'Username',
+            'username' => 'Nome de Usuário',
             'imagem' => 'Imagem',
         ];
     }

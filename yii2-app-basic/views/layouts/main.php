@@ -39,14 +39,14 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'Cidade', 'url' => ['/cidade/create']],
+            ['label' => 'Usuário', 'url' => ['/usuario/create']],
             ['label' => 'Cliente', 'url' => ['/cliente/create']],
             ['label' => 'Associação', 'url' => ['/associacao/create']],
-            ['label' => 'Lançamento', 'url' => ['/lancamento/create']],
+            ['label' => 'Cidade', 'url' => ['/cidade/create']],
+            ['label' => 'Estado', 'url' => ['/estado/create']],
             ['label' => 'Credor Devedor', 'url' => ['/credor-devedor/create']],
-            ['label' => 'Usuário', 'url' => ['/usuario/create']],
             ['label' => 'Banco', 'url' => ['/banco/create']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Lançamento', 'url' => ['/lancamento/create']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (

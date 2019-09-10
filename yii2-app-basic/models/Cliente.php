@@ -71,7 +71,7 @@ class Cliente extends \yii\db\ActiveRecord
             'bairro' => 'Bairro',
             'telefone' => 'Telefone',
             'email' => 'E-mail',
-            'idAssociacao' => 'Associacao',
+            'idAssociacao' => 'Associação',
         ];
     }
 

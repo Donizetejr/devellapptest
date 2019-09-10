@@ -4,7 +4,6 @@ namespace app\models;
 
 use app\models\Usuario;
 use app\models;
-use yii\data\ArrayDataProvider;
 
 class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
 {
@@ -13,7 +12,6 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     public $email;
     public $idPerfil;
     public $idFirebase;
-    public $passwordHash;
     public $passwordResetToken;
     public $createdAt;
     public $updatedAt;
@@ -21,7 +19,7 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     public $idCliente;
     public $imagem;
     public $username;
-    public $password;
+    public $passwordHash;
     public $authKey;
     public $accessToken;
 
@@ -104,7 +102,6 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
      */
     public function validatePassword($password)
     {
-        $this->password = "Usuario";
-        return $this->password === "Usuario";
+        return $this->passwordHash === $password;
     }
 }

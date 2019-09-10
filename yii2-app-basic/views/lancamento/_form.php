@@ -8,6 +8,7 @@ use app\models\FormaPagamento;
 use app\models\PlanoConta;
 use app\models\TipoConta;
 use app\models\TipoDocumento;
+use phpDocumentor\Reflection\Type;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
@@ -29,7 +30,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'dtVencimento')->textInput() ?>
 
-    <?= $form->field($model, 'dtEmissao')->textInput() ?>
+    <?= $form->field($model, 'dtEmissao')->textInput([]) ?>
 
     <?= $form->field($model, 'dtRealizacao')->textInput() ?>
 

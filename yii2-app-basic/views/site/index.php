@@ -11,32 +11,35 @@ $this->title = 'Teste Devell Yii2';
 
         <p class="lead">Teste concluído com Sucesso!</p>
 
-        <p><a class="btn btn-lg btn-success" href="index.php?r=lancamento%2Fcreate">Fazer Lançamento</a></p>
+        <p><a class="btn btn-lg btn-success" href="https://github.com/Donizetejr/devellapptest.git">Acesso ao projeto no GitHub</a></p>
     </div>
 
         <div class="body-content">
 
             <div class="row">
                 <div class="col-lg-4">
-                    <h2>Lançamentos</h2>
+                    <h2>CRUD's</h2>
 
-                    <p>Clique no botão abaixo para ter acesso ao Cadastro de Lançamentos.</p>
-
-                    <p><a class="btn btn-default" href="index.php?r=lancamento%2Findex">Novo Lançamento &raquo;</a></p>
+                    <p>Cada um dos Cruds feitos está acessível a partir dos links na barra de menu da aplicação. Para não sobrecarregar o restante foi adicionado aos botões:</p>
+                    <p>
+                        <a class="btn btn-secondary" href="index.php?r=categoria-resultado%2Fcreate">Categoria Resultado</a>
+                        <a class="btn btn-secondary" href="index.php?r=forma-pagamento%2Fcreate">Forma Pagamento</a>
+                        <a class="btn btn-secondary" href="index.php?r=tipo-documento%2Fcreate">Tipo Documento</a>
+                        <a class="btn btn-secondary" href="index.php?r=tipo-conta%2Fcreate">Tipo Conta</a>
+                        <a class="btn btn-secondary" href="index.php?r=plano-conta%2Fcreate">Plano Conta</a>
+                        <a class="btn btn-secondary" href="index.php?r=resultado-mensal%2Fcreate">Resultado Mensal</a>
+                        <a class="btn btn-secondary" href="index.php?r=retencao%2Fcreate">Retenção</a>
+                    </p>
                 </div>
                 <div class="col-lg-4">
-                    <h2>Novo Usuário</h2>
+                    <h2>Observações sobre o Yii2</h2>
 
-                    <p>Cadastrar um novo usuário.</p>
-
-                    <p><a class="btn btn-default" href="index.php?r=usuario%2Fcreate">Novo Usuário &raquo;</a></p>
+                    <p>Excelente ferramenta para o desenvolvimento ágil de projetos de software.</p>
                 </div>
                 <div class="col-lg-4">
-                    <h2>Login</h2>
+                    <h2>Banco de Dados</h2>
 
-                    <p>Fazer login.</p>
-
-                    <p><a class="btn btn-default" href="index.php?r=site%2Flogin">Login &raquo;</a></p>
+                    <p>O arquivo do banco de dados está disponibilizado no GitHub.</p>
                 </div>
             </div>
 

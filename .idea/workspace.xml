@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57109be9-797a-4910-9d68-4890196f1e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/devellapptest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/CategoriaResultado.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/CategoriaResultado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Cliente.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yii2-app-basic/models/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/models/Usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/lancamento/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/layouts/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-app-basic/views/usuario/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-app-basic/views/usuario/_form.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +150,7 @@
       <workItem from="1568059392469" duration="5878000" />
       <workItem from="1568078486083" duration="3853000" />
       <workItem from="1568111570764" duration="3260000" />
+      <workItem from="1568144819805" duration="5350000" />
     </task>
     <servers />
   </component>
